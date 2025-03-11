@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+.split-enter {
+  transform: translateX(-100%);
+}
+.split-enter-active {
+  transform: translateX(0);
+  transition: transform 1s;
+}
